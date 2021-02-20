@@ -1,5 +1,6 @@
 /*External CSS: style="background-color: white"*/
 h1 {
+  font-size: 200px;
   color: #66bfbf;
 }
 h3 {
@@ -17,5 +18,6 @@ hr {
 }
 
 img {
+ background-color: red;
  height: 150px;
 }
