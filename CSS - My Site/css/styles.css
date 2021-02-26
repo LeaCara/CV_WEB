@@ -1,14 +1,20 @@
 /*External CSS: style="background-color: white
 /********************TAG SELECTORS*************************/
-h1 {
-  font-size: 200px;
-  color: #66bfbf;
+body{
+  margin: 0;
 }
-h3 {
+h1 {
+  /*font-size: 200px;
+  color: #66bfbf;*/
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+/*h3 {
   color: #66bfbf;
 }
 body {
-  background-color: /*#eaf6f6*/blue;
+  background-color: #eaf6f6;
 }
 hr {
  border-color: grey;
@@ -21,7 +27,13 @@ hr {
  img:hover {
  background-color: gold;
 }
-
+*/
+div{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  background-color: #eaf6f6;
+}
 
 /********************CLASS SELECTORS*************************/
 /*
