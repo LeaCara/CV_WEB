@@ -65,6 +65,41 @@ hr {
 .pro{
   text-decoration: underline;
 }
+
+/*body{
+  margin: 0px;
+}
+.red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 200px;
+  top: 0px;
+}
+.container {
+  background-color: grey;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left:100px;
+  top: 0;
+}
+.yellow {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  top: 0;
+} */
 /********************ID SELECTORS*************************/
 /*
 #heading {
