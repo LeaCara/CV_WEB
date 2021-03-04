@@ -1,17 +1,22 @@
 /*External CSS: style="background-color: white
 /********************TAG SELECTORS*************************/
 body{
+  margin: 0;
   text-align: center;
+  font-family: 'Merriweather', serif;
+
 }
 h1 {
   /*font-size: 200px;
   color: #66bfbf;*/
   margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
+  font-family: 'Sacramento', cursive;
 }
-/*h3 {
-  color: #66bfbf;
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 body {
   background-color: #eaf6f6;
@@ -24,10 +29,10 @@ hr {
  width: 5%
 }
 
- img:hover {
+img:hover {
  background-color: gold;
 }
-*/
+
 
 /********************CLASS SELECTORS*************************/
 /*
@@ -48,7 +53,7 @@ hr {
 
 }
 .middle-container {
-  background-color: red;
+  /*background-color: red;
   height: 200px;
   width: 200px;
   /*display: inline-block;
@@ -56,7 +61,7 @@ hr {
   left: 200px;*/
 }
 .bottom-container {
-  background-color: blue;
+  /*background-color: blue;
   height: 200px;
   width: 200px;
   /*display: inline-block;
