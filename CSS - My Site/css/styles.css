@@ -1,11 +1,10 @@
 /*External CSS: style="background-color: white
 /********************TAG SELECTORS*************************/
 body {
-  background-color: #eaf6f6;
   text-align: center;
   font-family: 'Merriweather', serif;
-  font-size: 200%;
 }
+
 h1 {
   /*font-size: 200px;
   color: #66bfbf;*/
@@ -16,7 +15,6 @@ h1 {
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
 }
 h3 {
   font-family: 'Montserrat', sans-serif;
@@ -38,6 +36,9 @@ hr {
   background-color: blue;
 }
 */
+.me {
+  border-radius: 50%;
+}
 .mountain:hover {
  background-color: gold;
 }
@@ -119,6 +120,21 @@ hr {
   position: fixed;
   top: 0;
 } */
+.intro {
+  margin: auto 100px auto 100px;
+}
+
+.tool {
+  border-radius: 50%;
+  height: 140px;
+}
+.skill {
+  margin: auto 100px auto 100px;
+}
+.hobbies {
+  border-radius: 50%;
+  height: 140px;
+}
 /********************ID SELECTORS*************************/
 /*
 #heading {
