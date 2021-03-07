@@ -1,4 +1,3 @@
-/*External CSS: style="background-color: white
 /********************TAG SELECTORS*************************/
 body {
   text-align: center;
@@ -6,18 +5,25 @@ body {
 }
 
 h1 {
-  /*font-size: 200px;
-  color: #66bfbf;*/
-  /*1 em = 16px = 100%*/
+  color: #66bfbf;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+    font-weight: normal;
+    font-size: 2.5rem;
 }
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bold;
+}
+a {
+   color: #11999E;
+   text-decoration: none;
 }
 
 hr {
@@ -31,11 +37,6 @@ hr {
 
 
 /********************CLASS SELECTORS*************************/
-/*
-.bacon {
-  background-color: blue;
-}
-*/
 .mountain {
    border-radius: 50%;
 }
@@ -50,29 +51,12 @@ hr {
   background-color: #eaf6f6;
   padding-top: 100px;
   position: relative;
-  /*margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  /*display: inline-block;
-  position: relative;
-  left: 200px;*/
-
 }
 .middle-container {
-  /*background-color: red;
-  height: 200px;
-  width: 200px;
-  /*display: inline-block;
-  position: relative;
-  left: 200px;*/
 }
 .bottom-container {
-  /*background-color: blue;
-  height: 200px;
-  width: 200px;
-  /*display: inline-block;
-  position: relative;
-  left: 200px;*/
+  background-color: #66BFBF;
+  padding: 1%;
 }
 
 .pro{
@@ -89,58 +73,87 @@ hr {
   left: 300px;
   bottom: 300px;
 }
-/*body{
-  margin: 0px;
-}
-.red {
-  background-color: red;
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  left: 200px;
-  top: 0px;
-}
-.container {
-  background-color: grey;
-  height: 300px;
-  width: 300px;
-  position: relative;
-  left: 0px;
-  top: 0px;
-}
-.blue {
-  background-color: blue;
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  left:100px;
-  top: 0;
-}
-.yellow {
-  background-color: yellow;
-  height: 100px;
-  width: 100px;
-  position: fixed;
-  top: 0;
-} */
+
 .intro {
-  margin: auto 100px auto 100px;
+  margin: 1% 10% 1% 10%;
+  color: #40514E;
 }
 
+.skill-desc {
+  margin: 1% 10% 1% 10%;
+  color: #40514E;
+}
+.skills {
+  margin-top: 5%;
+}
 .tool {
   border-radius: 50%;
-  height: 140px;
-}
-.skill {
-  margin: auto 100px auto 100px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 .hobbies {
   border-radius: 50%;
-  height: 140px;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.GIT {
+  font-weight: bold;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.BUTTON_BCN {
+  margin: 5% auto 5% auto;
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #3D94F6);
+   background-image: -moz-linear-gradient(top, #66BFBF, #3D94F6);
+   background-image: -ms-linear-gradient(top, #66BFBF, #3D94F6);
+   background-image: -o-linear-gradient(top, #66BFBF, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 30px;
+   font-weight: 100;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_BCN:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.copyright{
+  color: #EAF6F6;
+}
+
+.footer-link{
+  margin: 5% 2% 5% 2%;
 }
 /********************ID SELECTORS*************************/
-/*
-#heading {
-  color: blue;
-}
-*/

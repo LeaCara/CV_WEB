@@ -1,0 +1,162 @@
+/*External CSS: style="background-color: white
+/********************TAG SELECTORS*************************/
+body {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  /*font-size: 200px;
+  color: #66bfbf;*/
+  /*1 em = 16px = 100%*/
+  color: #66bfbf;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+    font-weight: normal;
+    line-height: 2;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bold;
+}
+ a {
+   color: #11999E;
+ }
+
+hr {
+ border-color: grey;
+ border-style: none;
+ border-top-style: dotted;
+ border-width: 5px;
+ width: 5%
+}
+
+
+
+/********************CLASS SELECTORS*************************/
+/*
+.bacon {
+  background-color: blue;
+}
+*/
+.mountain {
+   border-radius: 50%;
+}
+.me {
+  border-radius: 50%;
+}
+.mountain:hover {
+ background-color: gold;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 100px;
+  position: relative;
+  /*margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  /*display: inline-block;
+  position: relative;
+  left: 200px;*/
+
+}
+.middle-container {
+  /*background-color: red;
+  height: 200px;
+  width: 200px;
+  /*display: inline-block;
+  position: relative;
+  left: 200px;*/
+}
+.bottom-container {
+  /*background-color: blue;
+  height: 200px;
+  width: 200px;
+  /*display: inline-block;
+  position: relative;
+  left: 200px;*/
+}
+
+.pro{
+  text-decoration: underline;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+/*body{
+  margin: 0px;
+}
+.red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 200px;
+  top: 0px;
+}
+.container {
+  background-color: grey;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left:100px;
+  top: 0;
+}
+.yellow {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  top: 0;
+} */
+.intro {
+  margin: auto 100px auto 100px;
+}
+
+.tool {
+  border-radius: 50%;
+  height: 140px;
+}
+.skill {
+  margin: auto 100px auto 100px;
+}
+.hobbies {
+  border-radius: 50%;
+  height: 140px;
+}
+.GIT {
+  font-weight: bold;
+}
+.hobbie-desc {
+  clear: right;
+}
+/********************ID SELECTORS*************************/
+/*
+#heading {
+  color: blue;
+}
+*/
