@@ -36,6 +36,9 @@ hr {
   background-color: blue;
 }
 */
+.mountain {
+   border-radius: 50%;
+}
 .me {
   border-radius: 50%;
 }
