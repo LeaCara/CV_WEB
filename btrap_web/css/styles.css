@@ -4,6 +4,11 @@ h1 {
   font-weight: 900;
 }
 
+h3 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+}
+
 #title {
   background-color: #ff4c68;
   color: #fff;
@@ -48,4 +53,31 @@ body{
 .title-image{
   width: 60%;
   transform: rotate(25deg);
+}
+
+
+/* Feature Section */
+#features {
+    padding: 7% 15%;
+}
+
+/* Paragraph Feature */
+.features-parag {
+  color: #8F8F8F;
+}
+
+/* Icon Feature */
+.icon {
+  font-size: 3rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
 }
