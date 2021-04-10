@@ -47,7 +47,7 @@ body{
 }
 
 .container {
-  padding: 3% 15%;
+  padding: 3% 7% 7%;
 }
 
 /* Download button */
@@ -60,12 +60,17 @@ body{
 .title-image{
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
+
 
 
 /* Feature Section */
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 /* Paragraph Feature */
@@ -86,7 +91,7 @@ body{
 
 .feature-box {
   text-align: center;
-  padding: 5%;
+  padding: 4.5%;
 }
 
 /* Testimonials Section */
