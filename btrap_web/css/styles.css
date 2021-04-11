@@ -64,7 +64,18 @@ body{
   right: 30%;
 }
 
+@media (max-width: 1028px) {
+  .title-image{
+    transform: rotate(0);
+    position: static;
+  }
 
+  #title {
+    text-align: center;
+  }
+
+
+}
 
 /* Feature Section */
 #features {
