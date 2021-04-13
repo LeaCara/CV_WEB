@@ -16,9 +16,28 @@ h3 {
   font-size: 1.5rem;
 }
 
+p {
+    color: #8F8F8F;
+}
+
 #title {
   background-color: #ff4c68;
   color: #fff;
+}
+
+#cta {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;  line-height: 1.5;
+  font-weight: 900;
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+
+.cta-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;  line-height: 1.5;
+  font-weight: 900;
 }
 
 body{
@@ -141,4 +160,9 @@ body{
 
 .column-pricing {
   padding: 3% 2%;
+}
+
+.foot {
+  padding: 50px;
+  text-align: center;
 }
