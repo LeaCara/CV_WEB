@@ -7,12 +7,6 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Montserrat', sans-serif;
 }
 
-p {
-    color: #8F8F8F;
-}
-
-
-
 /* Title style */
 
 #title {
@@ -104,6 +98,10 @@ p {
   font-size: 1.5rem;
 }
 
+.feture-parag {
+  color: #8F8F8F;
+}
+
 /* Testimonials Section */
 #testimonials {
 
@@ -158,6 +156,10 @@ p {
   font-size: 1.5rem;
 }
 
+.pricing-parag {
+  color: #8F8F8F;
+}
+
 
 /* CTA container */
 #cta {
@@ -181,4 +183,8 @@ p {
 
 .social-icon {
   margin: 20px 10px;
+}
+
+.foot-parag {
+  color: #8F8F8F;
 }
