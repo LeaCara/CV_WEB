@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #0a1931;
+}
+
+h1 {
+  /*font-size: 200px;
+  color: #66bfbf;*/
+  /*1 em = 16px = 100%*/
+  color: #66bfbf;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+    font-weight: normal;
+    line-height: 2;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bold;
+}
+
+.dice1{
+  height: 250px;
+  padding-right: 5%;
+}
+
+.dice2{
+  height: 250px;
+  padding-left: 5%;
+}
