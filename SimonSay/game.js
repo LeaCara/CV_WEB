@@ -48,8 +48,10 @@ function animateButton(butt){
 function nextSecuence(){
   $("h1").text("Level " + (++level));
   var newCol = Math.floor(Math.random()*4);
-  secuence.push(simonButton[newCol].imgcolor.id);
-  animateButton(simonButton[newCol].imgcolor);
+  var newButt = simonButton[newCol].imgcolor;
+  secuence.push(newButt.id);
+  $(newButt).fadeIn(100).fadeOut(100).fadeIn(100);
+  simonButton.find(elem => elem.imgcolor.id === newButt.id).sound();
 }
 
 function verifyPattern(butt){
