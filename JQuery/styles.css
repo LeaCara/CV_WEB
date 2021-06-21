@@ -7,3 +7,8 @@
 .margin-title{
   margin-left: 5%;
 }
+
+.effect
+{
+  opacity: 0.5;
+}
