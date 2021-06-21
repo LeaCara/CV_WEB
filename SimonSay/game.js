@@ -87,6 +87,7 @@ function errorSecuence(){
   animateError();
 }
 
+// Process de current state of the game
 function processClick(butt) {
   var verified = verifyPattern(butt);
   if (verified){
@@ -102,30 +103,3 @@ function processClick(butt) {
     errorSecuence();
   }
 }
-// function makeSound(buttonLetter) {
-//   // MANERA COMPACTA, NECESITA ES6->
-//   // Buscar instrumento según letra
-//   var instrument = buttonInstrum.find(elem => elem.letter === buttonLetter);
-//   // Si existe instrumernto
-//   if (instrument)
-//     instrument.sound();
-// }
-//
-//
-// function buttonAnimation(button){
-//   var activeButton = $("." + button);
-//   activeButton.addClass("pressed");
-//   setTimeout(function(){
-//     activeButton.removeClass("pressed");
-//   }, 100);
-// }
-//
-// // Detectar clicks de los buttons
-// for (var i = 0; i < numberOfDrumButtons ; i++){
-//   document.querySelectorAll(".drum")[i].addEventListener("click", function() {
-//     buttonLetter = this.innerHTML;
-//     makeSound(buttonLetter);
-//     buttonAnimation(buttonLetter)
-//
-//   });
-// }
