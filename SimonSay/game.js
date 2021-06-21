@@ -26,13 +26,17 @@ $(document).on("keypress", function(){
   //console.log($(".btn")[1]);
   //else { ... TODO listener r g b y to push color}
 });
-
-// Si start, click event listener
-$(".btn").click(function(){
+$("h1").on("click", function(){
   if(start === 0){
     start = 1;
     nextSecuence();
   }
+  //console.log($(".btn")[1]);
+  //else { ... TODO listener r g b y to push color}
+});
+
+// Si start, click event listener
+$(".btn").click(function(){
   if(start === 1) {
     animateButton(this);
     processClick(this);
