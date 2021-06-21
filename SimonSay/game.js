@@ -29,6 +29,10 @@ $(document).on("keypress", function(){
 
 // Si start, click event listener
 $(".btn").click(function(){
+  if(start === 0){
+    start = 1;
+    nextSecuence();
+  }
   if(start === 1) {
     animateButton(this);
     processClick(this);
