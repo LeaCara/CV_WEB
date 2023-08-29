@@ -19,3 +19,25 @@ footer {
   color: midnightblue;
 }
 
+@media (min-width: 681) and (max-width: 1072) {
+  .left{
+    float: left;
+  }
+}
+
+@media (min-width: 1072) and (max-width: 1237) {
+  .left{
+    float: left;
+  }
+}
+
+@media (min-width: 1238){
+  .card{
+    display: inline-block;
+
+  }
+  .tile-image{
+    float: left;
+  }
+
+}
